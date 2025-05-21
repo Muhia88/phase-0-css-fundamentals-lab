@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/*Update header*/
+h1 {
+  text-align: center;
+}
+
+/*Jazz up our navigation links*/
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: grey; /* As suggested, you can change this */
+  color: blue; /* Added for better readability on grey background */
+ 
+}
+
+/*Centre Image*/
+#featured-property figure{
+  text-align: center;
+}
+
+/*Image Caption*/
+#featured-property figcaption{
+  text-align: center;
+  font-size: smaller;
+}
+
+/*Update Test Block*/
+#featured-property p{
+  width: 800px;
+  text-align: center;
+  margin: 15px auto; /* Center the block and add vertical space */
+}
+
+/* Make our #details section horizontal */
+#details {
+  overflow: auto; /* To contain floated elements */
+  background-color: red; 
+  color: black; 
+  padding: 20px 0; 
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box; 
+  padding: 10px; 
+}
+
